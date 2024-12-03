@@ -1,0 +1,38 @@
+$primary: #4A18A6;
+$secondary: #FFA100;
+
+$body-background: #1E1E1E;
+$text-gray: #414042;
+$text-light-gray: #818181;
+$black: #000000;
+
+
+
+$color-names: (
+  primary: $primary,
+  secondary: $secondary,
+  body-background: $body-background,
+  black: $black,
+  white: #FFFFFF,
+  text-gray: $text-gray,
+  text-light-gray: $text-light-gray
+);
+
+
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/variables';
+
+
+$custom-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "body-background": $body-background,
+  "text-gray": $text-gray,
+  "text-light-gray": $text-light-gray
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+$custom-theme-colors: map-merge($theme-colors, $custom-colors);
+

@@ -1,0 +1,30 @@
+.card-1 {
+    background-image: url(/src/assets/Pot.png); /* Ruta de la imagen */
+    background-size: cover; /* Escala la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.card-2{
+    background: generate-linear-gradient(rgba(255, 189, 76, 1),rgba(255, 161, 0, 1));
+
+}
+.card-3{
+    background: generate-linear-gradient(rgba(235, 174, 70, 1),rgba(105, 54, 208, 1));
+    
+}
+.card-4 {
+    background-image: url(/src/assets/pot2.png); /* Ruta de la imagen */
+    background-size: cover; /* Escala la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.card-5 {
+    background-image: url(/src/assets/pot2.png); /* Ruta de la imagen */
+    background-size: cover; /* Escala la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.card-6{
+    background: generate-linear-gradient(rgba(100, 100, 167, 1), rgba(119, 54, 239, 1));
+
+}

@@ -1,0 +1,40 @@
+// fonts.scss
+$font-primary: 'Helvetica', sans-serif!important;
+
+*{
+  font-family: $font-primary;
+}
+
+// Type-scale
+$xxx-large: 3rem;
+$xx-large: 2rem;
+$x-large: 1.60rem;
+$large: 1.25rem;
+$med: 1.15rem;
+$small: 1.15rem;
+$xsmall: 1rem;
+
+// Type-Weights
+$bold: 700;
+$semi-bold: 600;
+$medium: 500;
+$regular: 400;
+
+$sizes: (
+  xxxl: $xxx-large,
+  xxl: $xx-large,
+  xl: $x-large,
+  l: $large,
+  m: $med,
+  s: $small,
+  xs: $xsmall
+);
+
+$weights: (
+  bold: $bold,
+  semibold: $semi-bold,
+  medium: $medium,
+  regular: $regular
+);
+
+

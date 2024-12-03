@@ -1,0 +1,10 @@
+
+@each $size-name, $size-value in $sizes {
+  @each $weight-name, $weight-value in $weights {
+    @each $color-name, $color-value in $color-names {
+      .#{$size-name}-#{$weight-name}-#{$color-name} {
+        @include typography($size-value, $weight-value, map-get($color-names, $color-name));
+      }
+    }
+  }
+}
